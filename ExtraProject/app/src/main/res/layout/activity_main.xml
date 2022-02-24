@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="392dp"
+                android:layout_height="300dp"
+                android:layout_column="0"
+                android:layout_marginRight="23dp"
+                android:layout_span="4" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/cut_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="cc"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/per_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="%"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/can_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="X"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/rem_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="/"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sev_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="7"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/eig_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="8"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/nig_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="15dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="9"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/mul_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="*"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/fou_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:shadowRadius="50"
+                android:text="4"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/fiv_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="5"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/six_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="6"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/sub_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="-"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/one_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:shadowRadius="50"
+                android:text="1"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/two_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="2"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/thr_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="3"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/sum_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="+"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/dzer_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="00"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/zer_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="0"
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/dot_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginRight="23dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="."
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+
+            <Button
+                android:id="@+id/equ_btn"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#FFFFFF"
+                android:hapticFeedbackEnabled="true"
+                android:shadowRadius="50"
+                android:text="="
+                android:textColor="#000000"
+                app:cornerRadius="50dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
